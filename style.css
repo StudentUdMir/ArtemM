@@ -1,0 +1,61 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    display: flex;
+    background-color: #D9FF00;
+    justify-content: space-between;
+}
+
+header img {
+    width: 10%;
+}
+
+nav {
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: left;
+}
+
+nav a {
+    margin: 10px;
+    background-color: #D9FF00;
+    padding: 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #D9FF00;
+}
+footer{
+    background-color: #D9FF00;
+    padding: 10px;
+    
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main img{
+    width: 100%;
+    padding: 10px;
+
+}
+h1{
+    text-align: center;
+}
+.brown{
+    background-color: brown;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.lime{
+    background-color:lime;
+}
+
